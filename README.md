@@ -20,6 +20,8 @@ En concret en centrarem en l'apartat de crítiques i extreurem la valoració de 
 ## FITXERS DEL REPOSITORI
 
 1. _cinema_scraper.py_ Fitxer on trobem el codi Python per realitzar el web scraping
+2. _DarreresEstrenes.csv_ Dataset en format csv amb les dades corresponents.
 2. _Pendent_nom.pdf_ Fitxer on s'explica el projecte amb més detall
 
 ## Link Zenodo
+__PENDENT__
