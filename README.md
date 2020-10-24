@@ -23,5 +23,20 @@ En concret en centrarem en l'apartat de crítiques i extreurem la valoració de 
 2. _DarreresEstrenes.csv_ Dataset en format csv amb les dades corresponents.
 2. _Pendent_nom.pdf_ Fitxer on s'explica el projecte amb més detall
 
+## EXECUCIO DE L'SCRIPT
+
+Per executar l'script hem d'incloure la data en que volem que acabi de cercar pel·lícules. Hi ha una data màxima (abans no havia una fitxa tècnica ben definida), i en cas d'indicar una data anterior a aquesta el web scraper finalitzarà en aquesta data "màxima".
+
+Per tant per executar s'ha d'indicar (s'inclou una data a mode d'exemple)
+
+```
+python cinema_scraper.py --fechaFinal 03-09-2015
+
+```
+
+En aquest punt hem de citar la tasca de @rafoelhonrado i els seu codi a [foodPriceScraper](https://github.com/rafoelhonrado/foodPriceScraper) de la practica de tipologia que ens va donar la idea de procedir així.
+
+
+
 ## Link Zenodo
 __PENDENT__
