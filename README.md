@@ -38,5 +38,7 @@ En aquest punt hem de citar la tasca de @rafoelhonrado i els seu codi a [foodPri
 
 
 
-## Link Zenodo
-__PENDENT__
+## Zenodo DOI
+
+10.5281/zenodo.4126260
+
