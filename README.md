@@ -41,4 +41,5 @@ En aquest punt hem de citar la tasca de @rafoelhonrado i els seu codi a [foodPri
 ## Zenodo DOI
 
 10.5281/zenodo.4126260
-
+LINK
+https://zenodo.org/record/4126260#.X5P4v4gzaUk
