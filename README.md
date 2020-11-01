@@ -23,6 +23,10 @@ En concret en centrarem en l'apartat de crítiques i extreurem la valoració de 
 2. _DarreresEstrenes.csv_ Dataset en format csv amb les dades corresponents.
 2. _Explicacio_practica.pdf_ Fitxer on s'explica el projecte i es responen als apartats plantejats a l'enunciat
 
+## BRANCHES
+
+Tenim dues __main__, la principal i __master__ on fem el commit des de local. Es podrà esborrar en acabar el projecte.
+
 ## EXECUCIÓ DE L'SCRIPT
 
 Per executar l'script hem d'incloure la data en que volem que acabi de cercar pel·lícules. Hi ha una data màxima (abans no havia una fitxa tècnica ben definida), i en cas d'indicar una data anterior a aquesta el web scraper finalitzarà en aquesta data "màxima".
