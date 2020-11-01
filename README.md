@@ -14,7 +14,7 @@ En concret en centrarem en l'apartat de crítiques i extreurem la valoració de 
 
 ## MEMBRES DE L'EQUIP
 (en ordre alfabètic)
-1. Joan Ginard Illescas
+1. Joan Ginard Illescas (té dos usuaris JoanGinard, creat per aquesta pràctica i Lordofthe0s, que era un usuari anterior i des del qual s'han pujat alguna arxius que estaven en local)
 2. Miquel Piña Grau
 
 ## FITXERS DEL REPOSITORI
