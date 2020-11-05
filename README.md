@@ -45,6 +45,7 @@ En aquest punt hem de citar la tasca de @rafoelhonrado i els seu codi a [foodPri
 Una vegada fet això l'scraper obri el csv i el preparara i accedeix a la web i comprova el màxim de pàgines disponibles a la web. Després comprova si la data final es posterior a la màxima per quedar-se amb una o altre segons el cas.
 
 La pàgina està organitzada de tal manera que cada pàgina té una sèrie de pel·lícules, de les que podem veure algunes dades com el títol i la valoració però per obtenir la resta de dades hem de fer "clic" i entrar a la pàgina.
+
 El nostre scraper accedirà a la pàgina i anirà a la primera pel·lícula i agafarà les dades (fent servir la funció que es troba a _getData.py_) i una vegada ha agafat aquestes dades, entrarà al link de la pel·lícula per agafar la resta de dades de la fitxa tècnica (amb la funció de _ficha.py_ que es troba dins _getData.py_). Així fins aconseguir totes les dades de totes les pel·lícules i després passarà a la següent pàgina i així fins arribar a la data indicada (o la màxima) o al màxim de pàgines, el que arribi primer.
 
 
