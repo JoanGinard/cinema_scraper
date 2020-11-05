@@ -19,13 +19,15 @@ En concret en centrarem en l'apartat de crítiques i extreurem la valoració de 
 
 ## FITXERS DEL REPOSITORI
 
-1. _cinema_scraper.py_ Fitxer on trobem el codi Python per realitzar el web scraping
-2. _DarreresEstrenes.csv_ Dataset en format csv amb les dades corresponents.
-2. _Explicacio_practica.pdf_ Fitxer on s'explica el projecte i es responen als apartats plantejats a l'enunciat
+1. _.gitignore_ Arxiu en el que el git cerca els arxius que dels que no ha de fer el seguiment. En el nostre cas només n'hi ha un
+2. _cinema_scraper.py_ Fitxer on trobem el codi Python "principal" per realitzar el web scraping
+3. _DarreresEstrenes.csv_ Dataset en format csv amb les dades corresponents.
+4. _Explicacio_practica.pdf_ Fitxer on s'explica el projecte i es responen als apartats plantejats a l'enunciat
+5. _ficha.py_ , _getData.py_, _maxPags.py_ Arxius on col·loquem les funcions auxiliars que fa servir el codi que es troba a cinema_scraper.py.  En realitat la funció que es troba a ficha.py només es crida des de getData.py i no des de cinema_scraper.py. La raó de separar el codi és per facilitar la lectura posterior.
 
 ## BRANCHES
 
-Tenim dues __main__, la principal i __master__ on fem el commit des de local. Es podrà esborrar en acabar el projecte.
+Tenim dues __main__, la principal i __master__ on fem el "commit" des de local, per després fer el "merge" amb el main. Es podria esborrar en acabar i presentar el projecte.
 
 ## EXECUCIÓ DE L'SCRIPT
 
@@ -40,6 +42,10 @@ python cinema_scraper.py --fechaFinal 03-09-2015
 
 En aquest punt hem de citar la tasca de @rafoelhonrado i els seu codi a [foodPriceScraper](https://github.com/rafoelhonrado/foodPriceScraper) de la practica de tipologia que ens va donar la idea de procedir així.
 
+Una vegada fet això l'scraper obri el csv i el preparara i accedeix a la web i comprova el màxim de pàgines disponibles a la web. Després comprova si la data final es posterior a la màxima per quedar-se amb una o altre segons el cas.
+
+La pàgina està organitzada de tal manera que cada pàgina té una sèrie de pel·lícules, de les que podem veure algunes dades com el títol i la valoració però per obtenir la resta de dades hem de fer "clic" i entrar a la pàgina.
+El nostre scraper accedirà a la pàgina i anirà a la primera pel·lícula i agafarà les dades (fent servir la funció que es troba a _getData.py_) i una vegada ha agafat aquestes dades, entrarà al link de la pel·lícula per agafar la resta de dades de la fitxa tècnica (amb la funció de _ficha.py_ que es troba dins _getData.py_). Així fins aconseguir totes les dades de totes les pel·lícules i després passarà a la següent pàgina i així fins arribar a la data indicada (o la màxima) o al màxim de pàgines, el que arribi primer.
 
 
 ## Zenodo DOI
