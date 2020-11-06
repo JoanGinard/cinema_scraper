@@ -19,10 +19,13 @@ En concret en centrarem en l'apartat de crítiques i extreurem la valoració de 
 
 ## FITXERS DEL REPOSITORI
 
-1. _.gitignore_ Arxiu en el que el git cerca els arxius que dels que no ha de fer el seguiment. En el nostre cas només n'hi ha un
-2. _cinema_scraper.py_ Fitxer on trobem el codi Python "principal" per realitzar el web scraping
-3. _DarreresEstrenes.csv_ Dataset en format csv amb les dades corresponents.
-4. _Explicacio_practica.pdf_ Fitxer on s'explica el projecte i es responen als apartats plantejats a l'enunciat
+1. _.gitignore_ Arxiu en el que el git cerca els arxius que dels que no ha de fer el seguiment. En el nostre cas només n'hi ha un.
+2. _DarreresEstrenes.csv_ Dataset en format csv amb les dades corresponents.
+3. _Explicacio_practica.pdf_ Fitxer on s'explica el projecte i es responen als apartats plantejats a l'enunciat.
+
+__Dins la carpeta codi__
+
+4. _cinema_scraper.py_ Fitxer on trobem el codi Python "principal" per realitzar el web scraping. 
 5. _ficha.py_ , _getData.py_, _maxPags.py_ Arxius on col·loquem les funcions auxiliars que fa servir el codi que es troba a cinema_scraper.py.  En realitat la funció que es troba a ficha.py només es crida des de getData.py i no des de cinema_scraper.py. La raó de separar el codi és per facilitar la lectura posterior.
 
 ## BRANCHES
