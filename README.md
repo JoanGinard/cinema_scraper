@@ -28,10 +28,6 @@ __Dins la carpeta codi__
 4. _cinema_scraper.py_ Fitxer on trobem el codi Python "principal" per realitzar el web scraping. 
 5. _ficha.py_ , _getData.py_, _maxPags.py_ Arxius on col·loquem les funcions auxiliars que fa servir el codi que es troba a cinema_scraper.py.  En realitat la funció que es troba a ficha.py només es crida des de getData.py i no des de cinema_scraper.py. La raó de separar el codi és per facilitar la lectura posterior.
 
-## BRANCHES
-
-Tenim dues __main__, la principal i __master__ on fem el "commit" des de local, per després fer el "merge" amb el main. Es podria esborrar en acabar i presentar el projecte.
-
 ## EXECUCIÓ DE L'SCRIPT
 
 Per executar l'script hem d'incloure la data en que volem que acabi de cercar pel·lícules. Hi ha una data màxima (abans no havia una fitxa tècnica ben definida), i en cas d'indicar una data anterior a aquesta el web scraper finalitzarà en aquesta data "màxima".
